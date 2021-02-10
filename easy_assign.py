@@ -13,22 +13,32 @@ DO NOT EDIT THE FUNCTION NAMES.
 
 
 '''
+string_1= "hey"
+string_2= "hi"
+char_1= "H"
+num_1= 4
 
 def append_two_strings(string_1, string_2):
+    print(string_1+string_2)
 
-    pass
+    
 
 
 def append_character(string_1, char_1):
+    print(string_1+char_1)
 
-    pass
+    
 
 
 def append_num_to_string(string_1, num_1):
-
-    pass
+    print(string_1+str(num_1))
 
 
 if __name__ == "__main__":
+    append_two_strings(string_1, string_2)
+    append_character(string_1, char_1)
+    append_num_to_string(string_1, num_1)
     
-    pass
+
+
+    
